@@ -124,3 +124,34 @@ nav{
     float: left;
 }
 
+/* Middle section */
+.mid-section{
+    position: relative;
+    text-align: center;
+    height: 130vh;
+    padding: 30px;
+    width: 50vw;
+}
+.mid-section h2{
+    top: 5%;
+    left: 70%;
+    position: relative;
+    width: 50%;
+}
+.mid-section img{
+    position: absolute;
+    left: 125%;
+    height: 500px;
+    bottom: 40%;
+}
+.editor-content{
+    left: 30%;
+    height: 50vh;
+    padding: 10px;
+    position: relative;
+    top: 10%;
+}
+.editor-content h3{
+   position: relative;
+    width: 50%;
+}
