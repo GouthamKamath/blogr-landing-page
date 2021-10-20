@@ -5,9 +5,7 @@ body{
 }
 
 h1,h2,h3,h4{
-    
     font-family: 'Ubuntu',sans-serif;
-    
     width: 20%;
 }
 p{
@@ -128,30 +126,43 @@ nav{
 .mid-section{
     position: relative;
     text-align: center;
-    height: 130vh;
+    height: 120vh;
     padding: 30px;
     width: 50vw;
 }
 .mid-section h2{
-    top: 5%;
-    left: 70%;
+    font-size: 40px;
+    font-family: 'Overpass',sans-serif;
+    left: 60%;
     position: relative;
-    width: 50%;
+    top: 10%;
+    width: 70%;
 }
 .mid-section img{
     position: absolute;
-    left: 125%;
-    height: 500px;
-    bottom: 40%;
+    left: 110%;
+    height: 800px;
+    bottom: 0%;
 }
 .editor-content{
-    left: 30%;
-    height: 50vh;
+    color: rgb(30, 26, 54);
+    left: 20%;
+    height: 60vh;
     padding: 10px;
     position: relative;
-    top: 10%;
+    top: 15%;
 }
+.editor-content p {
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+    width: 70%;
+}
+
 .editor-content h3{
-   position: relative;
-    width: 50%;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: justify;
+    width: 60%;
 }
