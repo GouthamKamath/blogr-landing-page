@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+h1,h2,h3,h4{
+    
+    font-family: 'Ubuntu',sans-serif;
+    
+    width: 20%;
+}
+p{
+    font-family: 'Overpass',sans-serif;
+}
+.header-section{
+    background-image: url("/images/bg-pattern-intro.svg");
+    background-size: 300vh;
+    background-color: hsl(13, 100%, 72%);
+    background-repeat: no-repeat;
+    background-position: center left;
+    border-radius: 0px 0px 0px 100px;
+    color:#fff;
+    position: relative;
+    padding: 25px;
+    height: 85vh;
+}
+.header-section h1{
+    font-size: 60px;
+    font-weight: 400;
+    left: 5%;
+    margin: 20px auto;
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    width: 80%;
+}
+.header-section h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 30px 40px;
+    
+}
+.header-section h4{
+    font-size: 20px;
+    font-weight:200;
+    left: 30%;
+    top: 50%;
+    position: absolute;
+    width: 60%;
+}
+.header-section button{
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    left: 35%;
+    margin-right: 10px;
+    padding: 10px;
+    position: relative;
+    top: 50%;
+    width: 140px;
+}
+#learn-btn{
+    border: 2px solid white;
+    background: none;
+    color: white;
+}
+#learn-btn:hover{
+    /* background: none; */
+}
+
+nav{
+    height: 20px;
+    left: 0px;
+    position: absolute;
+    top: 45px;
+    width: 100%;
+}
+
+.other-options{
+    list-style: none;
+    display: inline;
+    position: relative;
+    top: 25px;
+    left: 195px;
+    
+}
+
+.other-options li{
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 600;
+    margin: 0px 15px 50px 15px;
+}
+
+.login-options{
+    position: relative;
+    left: 40vw;
+    margin-right: 20px;
+}
+.login-options button{
+    bottom: 15px;
+    border: none;
+    right: 0%;
+    left: 0%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.other-options li{
+    float: left;
+}
+
+
+/* .header-section li{
+    margin: 20px 20px;
+} */
+
+/* 
+.other-options{
+display: flex;
+    flex-direction: row;
+    height: 20px;
+    left: 0px;
+    list-style: none;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    width: 30%;
+}
+    .login-options{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    list-style: none;
+    position: relative;
+    width: 20%;
+    margin: 0px auto;
+    left: 90%;
+}
+    
+    */
