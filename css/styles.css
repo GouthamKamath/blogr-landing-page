@@ -14,7 +14,7 @@ p{
     font-family: 'Overpass',sans-serif;
 }
 .header-section{
-    background-image: url("/images/bg-pattern-intro.svg");
+    background-image: url("../images/bg-pattern-intro.svg");
     background-size: 300vh;
     background-color: hsl(13, 100%, 72%);
     background-repeat: no-repeat;
