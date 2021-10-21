@@ -23,14 +23,15 @@ p{
     color:#fff;
     position: relative;
     padding: 25px;
-    height: 85vh;
+    height: 75vh;
+    width: 100%;
 }
 .header-section h1{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 400;
-    left: 15%;
+    left: 5%;
     margin: 20px auto;
-    position: absolute;
+    position: relative;
     top: 35%;
     text-align: center;
     width: 80%;
@@ -40,7 +41,7 @@ p{
     font-weight: 700;
     top: 0%;
     left: 10%;
-    position: relative;
+    position: absolute;
 }
 .header-section h4{
     font-size: 20px;
@@ -419,3 +420,191 @@ nav{
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  /* Media query */
+
+  @media screen and (max-width: 600px) {
+    .header-section {
+        height: 100vh;
+    }
+    .header-section ul{
+        display: none;
+        /* width: 50%; */
+    }
+    .header-section h1{
+        font-size: 40px;
+        left: 0%;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+        top: 25%;
+        width: 100%;
+    }
+    .header-section h4{
+        left: 20%;
+        top: 40%;
+        text-align: center;
+        width: 60%;
+    }
+    .header-section button{
+        left: 10%;
+    }
+    /* Mid section */
+    .mid-section{
+        height: 175vh;
+        width: 100%;
+        margin: 0px;
+        padding: 0;
+    }
+    .mid-section h2{
+        font-size: 35px;
+        left: 0px;
+        margin: 0;
+        top: 5%;
+        width: 100vw;
+    }
+    .mid-section img{
+        position: absolute;
+        left: 0%;
+        height: 400px;
+        width: 100%;
+        top: 7%;
+    }
+    .editor-content{
+        color: rgb(30, 26, 54);
+        left: 0%;
+        
+        position: relative;
+        top: 40%;
+    }
+    .editor-content p {
+        left: 5%;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .editor-content h3{
+        left: 10%;
+        position: relative;
+        text-align: center;
+    }
+    /* Details section */
+    .details-section{
+        background-size: 120vh;
+        background-position: left left;
+        border-radius: 0px 100px 0px 100px;
+        height: 100vh;
+        margin-top: 25vh;
+    }
+    .details-section img{
+        position: absolute;
+        bottom: 55%;
+        height: 450px;
+        width: 90%;
+    }
+    .details-section h2{
+        position: absolute;
+        left: 20%;
+        text-align: center;
+        top: 50%;
+        width: 60%;
+    }
+    .details-section p{
+        left: 20%;
+        height: 30%;
+        position: absolute;
+        text-align: center;
+        top: 65%;
+        width: 60%;
+    }
+    /* editor content */
+    .more-details-section{
+        position: relative;
+        height: 150vh;
+        width: 100%;
+    }
+    .more-details-section img{
+        height: 400px;
+        left: 0%;
+        top: 0%;
+        width: 500px;
+    }
+    .more-details-content {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        width: 100%;
+    }
+    .more-details-content p{
+        text-align: center;
+    }
+    .more-details-content h3{
+        left: 5%;
+        text-align: center;
+    }
+    /* Footer */
+    .footer-section{
+        height: 100vh;
+    }
+    .footer-section h2{
+        left: 40%;
+        top: 5%;
+    }
+    .product{
+        
+        left: 40%;
+        position: relative;
+        top: 15%;
+    }
+    .product ul{
+        height: 25vh;
+        left: 0%;
+        padding: 0;
+        position: absolute;
+        width: 200%;
+    }
+    .product li{
+        width: 100%;
+        right: 20%;
+        text-align: center;
+        position: relative;
+    }
+    .company{
+        left: 40%;
+        margin-top: 80px;
+        position: relative;
+        top: 35%;
+    }
+    .company ul{
+        height: 20vh;
+        left: 0%;
+        padding: 0;
+        position: absolute;
+        width: 200%;
+    }
+    .company li{
+        width: 100%;
+        right: 20%;
+        text-align: center;
+        position: relative;
+    }
+    .connect{
+        left: 40%;
+        margin-top: 120px;
+        position: relative;
+        top: 55%;
+    }
+    .connect ul{
+        height: 20vh;
+        left: 0%;
+        padding: 0;
+        position: absolute;
+        width: 200%;
+    }
+    .connect li{
+        width: 100%;
+        right: 20%;
+        text-align: center;
+        position: relative;
+    }
+  }
