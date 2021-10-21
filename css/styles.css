@@ -14,7 +14,7 @@ p{
     font-family: 'Overpass',sans-serif;
 }
 .header-section{
-    background-image: url("images/bg-pattern-intro.svg");
+    background-image: url("/images/bg-pattern-intro.svg");
     background-size: 300vh;
     background-color: hsl(13, 100%, 72%);
     background-repeat: no-repeat;
@@ -103,7 +103,11 @@ nav{
     cursor: pointer;
     font-family: 'Ubuntu',sans-serif;
     font-weight: 600;
-    margin: 5px 15px 50px 0px;
+    margin: 5px 25px 50px 15px;
+}
+
+.other-options li:hover{
+    text-decoration: underline;
 }
 
 .login-options{
@@ -365,3 +369,53 @@ nav{
 .connect li:hover{
     text-decoration: underline;
 }
+
+/* Dropdown */
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    visibility: hidden;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    min-width: 160px;
+    padding: 10px;
+    position: absolute;
+    transition: visibility 0.1s;
+    text-align: justify;
+    top: 40px;
+    right: -50px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(65, 62, 62);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+      color: #000;
+      font-weight: bold;
+    }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+      display: block;
+      visibility: visible;
+}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
