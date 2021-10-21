@@ -14,7 +14,7 @@ p{
     font-family: 'Overpass',sans-serif;
 }
 .header-section{
-    background-image: url("/images/bg-pattern-intro.svg");
+    background-image: url("../images/bg-pattern-intro.svg");
     background-size: 300vh;
     background-color: hsl(13, 100%, 72%);
     background-repeat: no-repeat;
@@ -32,14 +32,14 @@ p{
     left: 5%;
     margin: 20px auto;
     position: relative;
-    top: 35%;
+    top: 30%;
     text-align: center;
     width: 80%;
 }
 .header-section h2{
     font-size: 40px;
     font-weight: 700;
-    top: 0%;
+    top: 4%;
     left: 10%;
     position: absolute;
 }
