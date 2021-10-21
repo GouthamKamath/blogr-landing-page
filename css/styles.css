@@ -262,3 +262,106 @@ nav{
     text-align: justify;
     width: 60%;
 }
+
+/* Footer section */
+.footer-section{
+    background-color: rgba(32, 32, 36, 0.925);
+    border-radius: 0px 100px 0px 0px;
+    color: #fff;
+    height: 50vh;
+    position: relative;
+}
+.footer-section h2{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 35px;
+    font-weight: 800;
+    left: 10%;
+    top: 15%;
+}
+
+.footer-section div{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+   
+    position: absolute;
+}
+/* list div sections */
+.product{
+    left: 30%;
+    top: 15%;
+    width: 10%;
+}
+.product p{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.product ul{
+    list-style: none;
+    right: 55px;
+    top: 30px;
+    position: absolute;
+}
+.product li{
+    color: rgb(173, 168, 168);
+    cursor: pointer;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 14px;
+    margin-top: 12px;
+}
+.product li:hover{
+    text-decoration: underline;
+}
+.company{
+    left: 50%;
+    top: 15%;
+    width: 10%;
+}
+.company p{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.company ul{
+    list-style: none;
+    right: 85px;
+    top: 30px;
+    position: absolute;
+}
+.company li{
+    color: rgb(173, 168, 168);
+    cursor: pointer;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 14px;
+    margin-top: 12px;
+}
+.company li:hover{
+    text-decoration: underline;
+}
+.connect{
+    left: 70%;
+    top: 15%;
+    width: 10%;
+}
+.connect p{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.connect ul{
+    list-style: none;
+    right: 65px;
+    top: 30px;
+    position: absolute;
+}
+.connect li{
+    color: rgb(173, 168, 168);
+    cursor: pointer;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 14px;
+    margin-top: 12px;
+}
+.connect li:hover{
+    text-decoration: underline;
+}
